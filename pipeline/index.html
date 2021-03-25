@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Awesome Presentation</title>
+    <link href="favicon.png" rel="icon" type="image/png"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+      @import url(chalkduster.ttf);
+
+      body {
+        font-family: 'Chalkduster';
+        color: white;
+      }
+
+      .remark-slide-content {
+        background-image: url(img/chalkboard.png);
+      }
+
+      h1 {
+        color: #d4abef;
+      }
+
+      h2 {
+        color: #d4abef;
+        font-weight: normal;
+      }
+      
+      h3 {
+        font-weight: normal;
+      }
+
+      img {
+        border: solid thin white;
+      }
+
+      a, a:hover, a:visited {
+        color: #71b0e2;
+        font-family: sans-serif;
+      }
+
+      .purple {
+        color: #d4abef;
+      }
+
+      .green {
+        color: #a8e685;
+      }
+
+      .blue {
+        color: #71b0e2;
+      }
+
+      .white h2 {
+        color: white;
+      }
+
+      ul, ol {
+        text-align: left;
+        line-height: 3em;
+      }
+
+      .grid {
+        display: flex;
+        justify-content: space-between;
+        gap: 1;
+      }
+      .col {
+        flex: 1;
+      }
+      .col.double {
+        flex: 2;
+      }
+
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-notes, .remark-notes-preview { font-family:  sans-serif;}
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+
+# Build Your Contributor Pipeline
+
+.right[
+CNCF SIG Contributor Strategy  
+Carolyn Van Slyck  
+Josh Berkus
+]
+
+???
+
+Notes for the _first_ slide!
+
+---
+
+class: center, middle
+
+.grid[
+.col[
+<img src="img/carolynvs.jpg" width="200px" />  
+Carolyn Van Slyck  
+Principal Software Engineer  
+Microsoft
+]
+
+.col[
+<img src="img/jberkus.jpg" width="200px" />  
+Josh Berkus  
+Community Architect  
+Red Hat
+]
+]
+
+---
+
+class: center, middle
+
+<img src="img/sig-background.jpg" alt="two crochet figures sitting next to each other" width="600px"/>
+
+.white[
+## What are you building?
+]
+
+???
+
+* Before we go into details on _how_ to achieve contributor growth, take a moment to be intentional about it.
+* What are you trying to achieve? Community around the project? Finding the next maintainer? Wider range of skills and perspectives?
+* Be honest with what time and energy you have to give.
+* Who else is committed to making this happen with you?
+
+---
+
+class: center
+
+## Where do contributors come from?
+
+* Individual users of your project
+* Their company uses it
+* People want to use your project to learn 
+
+???
+
+TODO: Josh
+
+---
+
+class: center
+
+## Who do you want to join?
+
+* People new to the project? Existing users?
+* Can you offer mentoring?
+* Are you lacking contributors with specific skills?  
+  Project Management, Technical Writing, Design
+* Experienced maintainers and programmers to help run the project?
+
+???
+
+* Understand who you are looking for and make sure your welcome mat includes them!
+* Targeting everything at once is usually too much.
+* Evaluate your capacity to on-board
+
+---
+
+class: center
+
+## Enable vs Unblock
+
+???
+
+TODO: Josh will add lists of potential blockers vs things that only enable
+
+* Things you can do to enable contributors vs. things that are blockers to contributing
+* Published governance demonstrates that there isn’t a glass ceiling, even if there’s just one maintainer right now
+* Enablers: public dev meetings first and community meetings second, alternative office hours meeting
+
+---
+
+class: center
+
+## What’s most valuable
+
+1. Written asynchronous communications  
+  Mailing List, Blog, Discussion Forum
+2. Developer Meeting
+3. Office Hours / End-User Forum
+4. Community Meetings work better in other formats
+
+???
+
+TODO: What activities are more or less useful (dev: yes, community: blog post would be about the same), office hours > community meeting
+
+* Meetings with no content/action items/activities should be blog posts.
+* Synchronous activity is expensive, least attended
+* Users show up to get access to core developers
+
+---
+
+class: center
+
+## Set your expectations
+
+.grid[
+.col.double[
+* Pick what makes sense for your project
+* Focus initially on what helps you scale
+* Try one at a time
+]
+
+.col[
+<img src="img/cat-scream-yawn.jpg" alt="Kitten yawning that looks like a scream" width="200px" />
+]
+]
+
+???
+
+We are listing _everything_ that you can do, it’s not everything that every project _should_ do.
+
+https://pixy.org/5792093/
+
+---
+
+class: center, middle
+
+.white[
+### This will always be an activity, it is not a destination
+]
+
+---
+
+class: center
+
+## Community must advertise
+
+.grid[
+.col.double[
+* Readme
+* Contributing Guide / Landing Page
+* Good First Issues
+]
+
+.col[
+<img src="img/honeyjar.jpg" alt="Jar of honey, with a honey dipper" width="200px" />
+]
+]
+
+???
+
+* People don’t always know to look for a contributing.md but everyone sees your readme. Let people know that you want contributors.
+* These documents set the tone for your project and impacts if people feel welcome
+* When a new contributor takes a peek at the contributing.md, they aren’t just looking for _how_ to contribute, but a feel for if your project is a good match.
+
+https://pxhere.com/en/photo/860691
+
+---
+
+class: center, middle
+
+<img src="img/example-porter-readme.png" width="100%"
+alt="Screenshot of the Porter readme. Looking for Contributors. What to work on Porter with us? We are actively seeking out new contributors with the hopes of building up both casual contributors and enticing some of you into becoming reviewers and maintainers. Start with our New Contributors Guide."
+/>
+
+.white[
+## Example Readme 
+]
+
+<https://porter.sh/src/README.md>
+
+---
+
+class: center, middle
+
+<img src="img/example-template-contributing-guide.png" width="90%"
+alt=""
+/>
+
+.white[
+## Example Landing Page
+]
+
+<https://porter.sh/contribute/>
+
+---
+
+class: center, middle
+
+<img src="img/example-template-contributing-guide.png" width="90%"
+alt=""
+/>
+
+.white[
+## Example Contributing Guide
+]
+
+<https://github.com/cncf/project-template/blob/main/CONTRIBUTING.md>
+
+---
+
+class: center
+
+## Help Wanted Label
+
+* Low Barrier to Entry
+* Clear Task
+* Medium to Low Priority
+* Up to Date
+* May be looking for specialized skills
+
+???
+
+An issue that needs specialized knowledge that may not necessarily be domain specific to the project, e.g. people who know windows, or front-end design or networking
+
+---
+
+class: center
+
+## Good First Issue Label
+
+* No Barrier to Entry
+* Issue Provides Enough Context
+* Solution Explained in Issue
+* Gives Examples to Copy and Modify
+* Identifies Relevant Code
+* Ready to Test
+
+---
+
+class: center, middle
+
+<img src="img/example-porter-good-first-issue.png" width="80%"
+alt=""
+/>
+
+.white[
+## Example Good First Issue
+]
+
+<https://github.com/getporter/porter/issues/1407>
+
+---
+
+class: center
+
+## Perpetual Good First Issue
+
+TODO: carolyn
+
+???
+
+* CAROLYN:
+* Encourage new contributors to add to the new contributor guide, they have a perspective that you can’t replicate
+* Have them run through “cold” without immediate help from you to spot gaps and communication problems
+
+---
+
+class: center
+
+## Onboarding
+
+.grid[
+.col.double[
+* Contributing Guide
+  * Environment Set up
+  * Contributing Tutorial
+  * Project Tutorials
+* First Pull Request Experience
+]
+
+.col[
+<img src="img/welcome-aboard.jpg" width="300px" 
+      alt="Person standing in front of a welcome mat that says Welcome Aboard"
+/>
+]
+]
+
+???
+
+Goal: Someone can make their first pull request without playing 20 questions
+Help them help themselves
+Get reviewers on the same page for how they are expected to help new contributors
+It’s okay to set boundaries
+
+https://pxhere.com/en/photo/1173337
+
+---
+
+class: center
+
+## Teaching Mediums
+
+* Text first. More accessible.
+* Videos, keep them small. You will re-record as things change
+* In-person is the least scalable
+
+???
+
+TODO: josh
+
+---
+
+class: center, middle
+
+<img src="img/example-porter-contributing-tutorial.png" width="80%"
+alt=""
+/>
+
+.white[
+### Example Contributing Tutorial
+]
+
+<https://porter.sh/contribute/tutorial>
+
+---
+
+class: center
+
+## Contributor Ladder
+
+* Outline project roles and how to achieve them
+* Consider roles you need but don’t have yet
+* Agree on how contributors can earn trust
+* Shows people that there is a path to maintainer
+
+???
+
+Don’t compare against the original creators of the project
+It’s okay to limit scope of responsibility
+
+---
+
+class: center, middle
+
+<img src="img/example-porter-contributor-ladder.png" width="80%"
+alt=""
+/>
+
+.white[
+### Example Contributor Ladder
+]
+
+<https://porter.sh/src/CONTRIBUTION_LADDER.md>
+
+---
+
+class: center
+
+## Templates
+
+* <https://github.com/cncf/project-templates>
+* [Readme](https://github.com/cncf/project-template/blob/main/README.md)
+* [Contributing Guide](https://github.com/cncf/project-template/blob/main/CONTRIBUTING.md)
+* [Contributor Ladder](https://github.com/cncf/sig-contributor-strategy/blob/master/contributor-growth/drafts/contributor-ladder.md)
+
+---
+
+class: center
+
+## Guides
+
+* <https://github.com/cncf/sig-contributor-strategy>
+* [Issue Labeling](https://github.com/cncf/sig-contributor-strategy/blob/master/contributor-growth/docs/issue-labels.md)
+* [Recruiting Playbook](https://github.com/cncf/sig-contributor-strategy/blob/master/contributor-growth/docs/recruiting-playbook.md)
+* [Contributor Growth Framework](https://github.com/cncf/sig-contributor-strategy/blob/master/contributor-growth/drafts/contributor-growth-framework/0-Intro.md)
+
+---
+
+class: center
+
+## CNCF SIG Contributor Strategy
+
+* TODO (below)
+* What we can help with
+* SIG Meetings
+* Maintainers Circle
+
+???
+
+Encourage people to drop into meetings and maintainer's circle
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
